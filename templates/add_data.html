@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles_add_data.css') }}">
+</head>
+<body>
+    <h1>Add Data</h1>
+    <form method="post" action="{{ url_for('add_data') }}">
+        <label for="data">Data:</label>
+        <textarea id="data" name="data" required></textarea>
+        <button type="submit" class="btn">Add</button>
+    </form>
+    <a href="{{ url_for('main_page') }}" class="btn">Back to Main Page</a>
+</body>
+</html>

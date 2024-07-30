@@ -1,0 +1,1000 @@
+ 1007  ls
+ 1008  ./build-linux.sh 
+ 1009  ./build-linux.sh -t rk3588 -a aarch64 -b Release
+ 1010  echo $GCC_COMPILER
+ 1011  export GCC_COMPILER=/usr/bin/aarch64-linux-gnu
+ 1012  ./build-linux.sh -t rk3588 -a aarch64 -b Release
+ 1013  ls
+ 1014  ./build-linux.sh -t rk3588 -a aarch64 -b Release
+ 1015  export LD_LIBRARY_PATH=/usr/lib/aarch64-linux-gnu:$LD_LIBRARY_PATH
+ 1016  ./build-linux.sh 
+ 1017  ./build-linux.sh -t rk3588 -a aarch64 -b Release
+ 1018  ./build-linux.sh -a aarch64 -b Release
+ 1019  ./build-linux.sh -t rk3588 -a aarch64 -b Release
+ 1020  export TARGET_SOC=rk3588
+ 1021  ./build-linux.sh -t rk3588 -a aarch64 -b Release
+ 1022  ./build-linux.sh
+ 1023  ./build-linux.sh -t rk3588
+ 1024  ./build-linux.sh 
+ 1025  ldd build-linux.sh 
+ 1026  ls
+ 1027  lld build-linux.sh 
+ 1028  ldd build-linux.sh 
+ 1029  echo $LD_LIBRARY_PATH
+ 1030  ./build-linux.sh 
+ 1031  chmod 777 /usr/lib/aarch64-linux-gnu/
+ 1032  sudo chmod 777 /usr/lib/aarch64-linux-gnu/
+ 1033  sudo chmod 777 /usr/lib/aarch64/
+ 1034  ls -l /usr/lib/aarch64/
+ 1035  ls -l /usr/lib/aarch64
+ 1036  ./build-linux.sh 
+ 1037  ls
+ 1038  ./build-linux.sh 
+ 1039  ls
+ 1040  cd new/
+ 1041  ls
+ 1042  cd rknn-toolkit2/rknpu2/examples/rknn_yolov5_demo/
+ 1043  ls
+ 1044  ./build-linux.sh 
+ 1045  cd build/
+ 1046  ls
+ 1047  cd ..
+ 1048  ls
+ 1049  ./build-linux.sh 
+ 1050  history | grep export
+ 1051  export LD_LIBRARY_PATH=/usr/lib/aarch64-linux-gnu:$LD_LIBRARY_PATH
+ 1052  export GCC_COMPILER=/usr/bin/aarch64-linux-gnu
+ 1053  ./build-linux.sh 
+ 1054  find / -name "RgaUtils.h"
+ 1055  sudo find / -name "RgaUtils.h"
+ 1056  ./build-linux.sh 
+ 1057  include_directories(/home/fill/new/rknn-toolkit2/rknpu2/examples/3rdparty/rga/include)
+ 1058  ./build-linux.sh 
+ 1059  sensor
+ 1060  sensors
+ 1061  cd ..
+ 1062  cd src/
+ 1063  ls
+ 1064  ls -l
+ 1065  chmod 777 logo.jpg 
+ 1066  sudo chmod 777 logo.jpg 
+ 1067  htop
+ 1068  /rknn-toolkit2/rknpu2/examples/rknn_yolov5_demo$ ./build-linux.sh 
+ 1069  RGA_PATH/home/fill/new/rknn-toolkit2/rknpu2/examples/rknn_yolov5_demo/../3rdparty/rga/libs/Linux
+ 1070  ТУТА Я
+ 1071  -- Configuring done
+ 1072  -- Generating done
+ 1073  -- Build files have been written to: /home/fill/new/rknn-toolkit2/rknpu2/examples/rknn_yolov5_demo/build/build_linux_aarch64
+ 1074  make[2]: *** No rule to make target '/gcc-aarch64/librga.so', needed by 'rknn_yolov5_demo'.  Stop.
+ 1075  make[2]: *** Waiting for unfinished jobs....
+ 1076  [ 33%] Building CXX object CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.o
+ 1077  /home/fill/new/rknn-toolkit2/rknpu2/examples/rknn_yolov5_demo/src/main.cc: In function ‘int inputKnn(cv::Mat&, rknn_context&)’:
+ 1078  /home/fill/new/rknn-toolkit2/rknpu2/examples/rknn_yolov5_demo/src/main.cc:355:51: error: could not convert ‘scale_w’ from ‘float’ to ‘BOX_RECT’ {aka ‘_BOX_RECT’}
+ 1079  /home/fill/new/rknn-toolkit2/rknpu2/examples/rknn_yolov5_demo/src/main.cc:384:53: error: could not convert ‘scale_w’ from ‘float’ to ‘BOX_RECT’ {aka ‘_BOX_RECT’}
+ 1080  make[2]: *** [CMakeFiles/rknn_yolov5_demo.dir/build.make:76: CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.o] Error 1
+ 1081  make[1]: *** [CMakeFiles/Mak
+ 1082  v412-ctl --list-devices
+ 1083  sudo apt-get install v4l-utils
+ 1084  v412-ctl --list-devices
+ 1085  v4l2-ctl --list-devices
+ 1086  sensors
+ 1087  ls
+ 1088  rm thinclient_drives/
+ 1089  rmdir
+ 1090  rmdir thinclient_drives/
+ 1091  ls
+ 1092  cd projects/
+ 1093  cd ..
+ 1094  cd neq
+ 1095  cd new/
+ 1096  cd rknn-toolkit2/rknpu2/
+ 1097  ls
+ 1098  cd examples/rknn_yolov5_demo/
+ 1099  ls
+ 1100  ./build
+ 1101  ./build-linux.sh 
+ 1102  ./build-linux.sh -R
+ 1103  nano build-linux.sh 
+ 1104  ./build-linux.sh -R
+ 1105  ./build-linux.sh 
+ 1106  history | grep export
+ 1107  export LD_LIBRARY_PATH=/usr/lib/aarch64-linux-gnu:$LD_LIBRARY_PATH
+ 1108  export GCC_COMPILER=/usr/bin/aarch64-linux-gnu
+ 1109  ./build-linux.sh 
+ 1110  ls
+ 1111  cd build/build_linux_aarch64/
+ 1112  ls
+ 1113  ./rknn_yolov5_demo 
+ 1114  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn /dev/video1 640 640
+ 1115  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 640 640
+ 1116  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 2 640 640
+ 1117  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 0 640 640
+ 1118  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 640 640
+ 1119  [ WARN:0@0.576] global ./modules/videoio/src/cap_gstreamer.cpp (1405) open OpenCV | GStreamer warning: Cannot query video position: status=0, value=-1, duration=-1
+ 1120  [ WARN:0@1.212] global ./modules/videoio/src/cap_gstreamer.cpp (2401) handleMessage OpenCV | GStreamer warning: Embedded video playback halted; module v4l2src0 reported: Internal data stream error.
+ 1121  [ WARN:0@1.213] global ./modules/videoio/src/cap_gstreamer.cpp (897) startPipeline OpenCV | GStreamer warning: unable to start pipeline
+ 1122  Loading mode...
+ 1123  [ WARN:0@1.272] global ./modules/imgcodecs/src/loadsave.cpp (239) findDecoder imread_('logo.jpg'): can't open/read file: check file path/integrity
+ 1124  start.
+ 1125  [ WARN:0@1.288] global ./modules/videoio/src/cap_gstreamer.cpp (862) isPipelinePlaying OpenCV | GStreamer warning: GStreamer: pipeline have not been created
+ 1126  sudo apt install gstreamer
+ 1127  ls
+ 1128  nano cmake_install.cmake 
+ 1129  apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio
+ 1130  sudo apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio
+ 1131  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 640 640
+ 1132  gst-inspection-1.0 --version
+ 1133  gst-inspect-1.0 --version
+ 1134  gst-inspect-1.0
+ 1135  gst-inspect-1.0 v4l2src
+ 1136  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 640 640
+ 1137  ./rknn_yolov5_demo 
+ 1138  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 480 640
+ 1139  gst-play-1.0
+ 1140  sudo apt install gstreamer1.0-plugins-base-apps
+ 1141  gst-play-1.0
+ 1142  gst-play-1.0 /dev/video1
+ 1143  ls -l /dev/video1
+ 1144  sudo ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 480 640
+ 1145  groups
+ 1146  htop
+ 1147  ls
+ 1148  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn ../../model/bus.jpg 
+ 1149  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 
+ 1150  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 480 640
+ 1151  v4l2-ctl --list-devices
+ 1152  v4l2-ctl --device=/dev/video1
+ 1153  mplayer
+ 1154  v4l2-ctl --device=/dev/video1 --stream-mmap --stream-count=100
+ 1155  ffplay /dev/video1
+ 1156  c
+ 1157  ffplay /dev/video0
+ 1158  ffplay /dev/video2
+ 1159  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 480 640
+ 1160  sudo find / -name loadsave.cpp
+ 1161  sudo find / -name imgcodecs
+ 1162  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 480 640
+ 1163  ls
+ 1164  cd ..
+ 1165  ls
+ 1166  ./build-linux.sh 
+ 1167  g++ check_opencv.cpp -o check_opencv `pkg-config --cflags --libs opencv4`
+ 1168  ls
+ 1169  nano check_opencv.cpp
+ 1170  g++ check_opencv.cpp -o check_opencv `pkg-config --cflags --libs opencv4`
+ 1171  ls
+ 1172  ./check_opencv 
+ 1173  rm check_opencv
+ 1174  rm check_opencv.cpp 
+ 1175  ls
+ 1176  cd build/build_linux_aarch64/
+ 1177  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 480 640
+ 1178  ./../../build-linux.sh 
+ 1179  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 480 640
+ 1180  ls
+ 1181  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 480 640
+ 1182  ls
+ 1183  mkdir conda
+ 1184  cd conda/
+ 1185  git clone ./modules/videoio/src/cap_gstreamer.cpp (1405) open OpenCV
+ 1186  cd new/rknn-toolkit2/rknpu2/examples/rknn_yolov5_demo/build/build_linux_aarch64/
+ 1187  ls
+ 1188  sudo ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 480 640
+ 1189  sudo ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 0 480 640
+ 1190  sudo ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 2 480 640
+ 1191  sudo ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 480 640
+ 1192  ls -l /dev/video
+ 1193  ls -l /dev/video1
+ 1194  ls -l /dev/video*
+ 1195  gst-play-1.0 /dev/video1
+ 1196  gst-play-1.0 /dev/video0
+ 1197  gst-play-1.0 /dev/video2
+ 1198  gst-play-1.0 /dev/video1
+ 1199  gst-play-1.0 /dev/video0
+ 1200  sudo lsof /dev/video0
+ 1201  sudo lsof /dev/video1
+ 1202  sudo lsof /dev/video2
+ 1203  ls -l /dev/video*
+ 1204  sudo ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 480 640
+ 1205  ls
+ 1206  cd ..
+ 1207  ls
+ 1208  cd ..
+ 1209  ls
+ 1210  cd projects/
+ 1211  cd ..
+ 1212  source venv00convert/bin/activate
+ 1213  cd projects/
+ 1214  ls
+ 1215  cd Deepsort_RKNN_Python/
+ 1216  ls
+ 1217  cd Deepsort_RKNN_Python/
+ 1218  ls
+ 1219  cd ..
+ 1220  ls
+ 1221  cd Deepsort_RKNN_Python/
+ 1222  ls
+ 1223  cd ..
+ 1224  cd ObjectCounter/
+ 1225  ls
+ 1226  python3 NPU.py 
+ 1227  ls
+ 1228  python3 CPU.py 
+ 1229  ls
+ 1230  cd conda/
+ 1231  ls
+ 1232  git clone https://github.com/airockchip/rknn-toolkit2.git
+ 1233  ls
+ 1234  cd rknn-toolkit2/rknpu2/examples/rknn_yolov5_demo/
+ 1235  ls
+ 1236  cmod +x ./build-linux.sh 
+ 1237  chmod +x ./build-linux.sh 
+ 1238  ./build-linux.sh clean
+ 1239  cd include/
+ 1240  ls
+ 1241  cd ..
+ 1242  ./build-linux.sh -t rk3588 -a aarch64 -b Release
+ 1243  export GCC_COMPILER=/usr/bin/aarch64-linux-gnu
+ 1244  ./build-linux.sh -t rk3588 -a aarch64 -b Release
+ 1245  cd ..
+ 1246  ls
+ 1247  ffmpeg -f v4l2 -input_format mjpeg -video_size 640x480 -i /dev/video0 -vf "format=yuv420p" -f v4l2 /dev/video1
+ 1248  ls
+ 1249  cd new
+ 1250  ls
+ 1251  nano text.cc
+ 1252  ls
+ 1253  mv text.cc text.c
+ 1254  ls
+ 1255  gcc text.c -o capture
+ 1256  gcc text.c -o capture -I/usr/include/opencv2
+ 1257  gcc text.c -o capture -I/usr/lib/opencv2
+ 1258  locate opencv2/opencv.hpp
+ 1259  sudo apt install mlocate
+ 1260  locate opencv2/opencv.hpp
+ 1261  sudo locate opencv2/opencv.hpp
+ 1262  sudo updatedb
+ 1263  sudo locate opencv2/opencv.hpp
+ 1264  gcc text.c -o capture -I/usr/include/opencv4/opencv2
+ 1265  gcc text.c -o capture -lopencv_core -lopencv_highgui -lopencv_imgproc
+ 1266  gcc text.c -o capture -I/usr/include/opencv4 -lopencv_core -lopencv_highgui -lopencv_imgproc
+ 1267  gcc text.c -o capture -I/usr/include/opencv4 -lopencv_core -lopencv_highgui -lopencv_imgproc -std=c++11
+ 1268  mv text.c text.cpp
+ 1269  g++ text.cpp -o capture -I/usr/include/opencv4 -lopencv_core -lopencv_highgui -lopencv_imgproc -std=c++11
+ 1270  ./capture 
+ 1271  gdb ./capture 
+ 1272  sudo apt install gdb
+ 1273  gdb ./capture 
+ 1274  ls
+ 1275  rm text.cpp 
+ 1276  nano text.cpp
+ 1277  g++ text.cpp -o capture -I/usr/include/opencv4 -lopencv_core -lopencv_highgui -lopencv_imgproc
+ 1278  g++ text.cpp -o capture -I/usr/include/opencv4 -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_videoio -lopencv_imgcodecs
+ 1279  ./capture 
+ 1280  nano text.cpp 
+ 1281  g++ text.cpp -o capture -I/usr/include/opencv4 -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_videoio -lopencv_imgcodecs
+ 1282  ./capture 
+ 1283  ls
+ 1284  rm text.cpp 
+ 1285  rm capture 
+ 1286  ls
+ 1287  git clone https://github.com/thanhtantran/rknn-single-thread-3566.git
+ 1288  python3 --version
+ 1289  source ../venv00convert/bin/activate
+ 1290  ls
+ 1291  cd rknn-single-thread-3566/
+ 1292  ls
+ 1293  python3 deploy.py 
+ 1294  cd ..
+ 1295  git clone https://github.com/cluangar/YOLOv5-RK3588-Python.git
+ 1296  ls
+ 1297  cd YOLOv5-RK3588-Python/
+ 1298  ls
+ 1299  pip install rknn_toolkit_lite2-1.4.0-cp39-cp39-linux_aarch64.whl 
+ 1300  python inference_npu.py 
+ 1301  pip install imutils
+ 1302  python inference_npu.py 
+ 1303  python inference_npu.py 640 640
+ 1304  python inference_npu.py help
+ 1305  python inference_npu.py -h
+ 1306  python inference_npu.py 
+ 1307  pip install opencv
+ 1308  pip install python-opencv
+ 1309  quit
+ 1310  exit
+ 1311  ls
+ 1312  cd new
+ 1313  ls
+ 1314  cd rknn-toolkit2/
+ 1315  ls
+ 1316  cd autosparsity/
+ 1317  ls
+ 1318  cd examples/
+ 1319  ls
+ 1320  cd ..
+ 1321  rmdir -r autosparsity/
+ 1322  rmdir -f autosparsity/
+ 1323  rmdir -R autosparsity/
+ 1324  rmdir autosparsity/
+ 1325  rm -R autosparsity/
+ 1326  ls
+ 1327  cd rknpu2/
+ 1328  ls
+ 1329  cd examples/
+ 1330  ls
+ 1331  cd rknn_yolov5_demo/
+ 1332  ls
+ 1333  cd build/
+ 1334  rm -R build_RK3588_linux_aarch64_Release/
+ 1335  ls
+ 1336  rm -R build_RK3588_linux_Release/
+ 1337  ls
+ 1338  cd build_linux_aarch64/
+ 1339  ls
+ 1340  ./rknn_yolov5_demo 
+ 1341  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 
+ 1342  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 640 640
+ 1343  which gst-launch-1.0
+ 1344  gst-inspect-1.0 --version
+ 1345  sudo apt-get install libgstreamer1.0-0 gstreamer1.0-dev gstreamer1.0-tools gstreamer1.0-doc
+ 1346  sudo apt-get install gstreamer1.0-plugins-base gstreamer1.0-plugins-good 
+ 1347  sudo apt-get install gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly 
+ 1348  sudo apt-get install gstreamer1.0-libav
+ 1349  sudo apt-get install gstreamer1.0-doc gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio
+ 1350  apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio
+ 1351  sudo apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio
+ 1352  nano video.py
+ 1353  python video.py 
+ 1354  python3 video.py 
+ 1355  nano video.py 
+ 1356  python3 video.py 
+ 1357  pip install opencv-python
+ 1358  source /home/fill/venv00convert/bin/activate
+ 1359  python3 video.py 
+ 1360  nano video.py 
+ 1361  python3 video.py 
+ 1362  lsusb
+ 1363  ffplay /dev/video1
+ 1364  python3 video.py 
+ 1365  nano video.py 
+ 1366  python3 video.py 
+ 1367  pip install opencv-python-headless
+ 1368  exit
+ 1369  ls
+ 1370  cd new/rknn-toolkit2/rknpu2/examples/rknn_yolov5_demo/
+ 1371  ls
+ 1372  cd build/build_linux_aarch64/
+ 1373  ls
+ 1374  ./rknn_yolov5_demo 
+ 1375  ./rknn_yolov5_demo /dev/video1
+ 1376  ./rknn_yolov5_demo 1 640 640
+ 1377  ./rknn_yolov5_demo ../../model/RK3588/yolov5s-640-640.rknn 1 640 640
+ 1378  ls
+ 1379  cd ..
+ 1380  ls
+ 1381  git clone https://github.com/Zhou-sx/yolov5_Deepsort_rknn.git
+ 1382  ls
+ 1383  cd yolov5_Deepsort_rknn/
+ 1384  ls
+ 1385  cd build/
+ 1386  ls
+ 1387  cd ..
+ 1388  ls
+ 1389  nano CMakeLists.txt 
+ 1390  cmake
+ 1391  cmake --version
+ 1392  nano CMakeLists.txt 
+ 1393  ls
+ 1394  find / -name "OpenCVConfig.cmake"
+ 1395  sudo find / -name "OpenCVConfig.cmake"
+ 1396  ls
+ 1397  make
+ 1398  cmake
+ 1399  ls
+ 1400  cmake ..
+ 1401  cmake
+ 1402  cmake .
+ 1403  ls
+ 1404  make
+ 1405  nano Makefile 
+ 1406  sudo make
+ 1407  nano Makefile 
+ 1408  build
+ 1409  cmake build/
+ 1410  cmake build
+ 1411  cmake .
+ 1412  ls
+ 1413  nano cmake_install.cmake 
+ 1414  nano Makefile 
+ 1415  cd ..
+ 1416  git clone https://github.com/Zhou-sx/yolov5_Deepsort_rknn.git
+ 1417  ls
+ 1418  cd yolov5_Deepsort_rknn/
+ 1419  ls
+ 1420  cd 3rdparty/
+ 1421  ls
+ 1422  cd ..
+ 1423  nano CMakeLists.txt 
+ 1424  history | grep export | grep OpenCV
+ 1425  history | grep export | grep OpenCV grep | ffind
+ 1426  history | grep export | grep OpenCV grep | find
+ 1427  history| grep find
+ 1428  sudo find / -name "OpenCVConfig.cmake"
+ 1429  nano CMakeLists.txt 
+ 1430  built
+ 1431  make
+ 1432  make .
+ 1433  cmake
+ 1434  cmake .
+ 1435  ls
+ 1436  make
+ 1437  ls
+ 1438  make
+ 1439  sudo find / -name Eigen/Core
+ 1440  sudo find / -name Core
+ 1441  make
+ 1442  ls
+ 1443  ./yolov5_deepsort 
+ 1444  cd model/
+ 1445  ls
+ 1446  ls -l
+ 1447  cd ..
+ 1448  ls
+ 1449  cd src/
+ 1450  ls
+ 1451  cd ..
+ 1452  ls
+ 1453  cd model/
+ 1454  chmod 777 best.rknn 
+ 1455  cd ..
+ 1456  ./yolov5_deepsort 
+ 1457  make
+ 1458  ./yolov5_deepsort 
+ 1459  chmod 777 model/yolov5s-640-640.rknn 
+ 1460  ./yolov5_deepsort 
+ 1461  sudo ./yolov5_deepsort 
+ 1462  make
+ 1463  ./yolov5_deepsort 
+ 1464  make
+ 1465  ./yolov5_deepsort 
+ 1466  make
+ 1467  ./yolov5_deepsort 
+ 1468  sensors
+ 1469  htop
+ 1470  ls
+ 1471  cd new/yolov5_Deepsort_rknn/
+ 1472  ls
+ 1473  ./yolov5_deepsort 
+ 1474  history| grep find | grep ffplay
+ 1475  history| grep find | grep ffplay| grep play
+ 1476  gst-inspect-1.0 va
+ 1477  ls
+ 1478  cd include/
+ 1479  ls
+ 1480  cd ..
+ 1481  cd build/
+ 1482  ls
+ 1483  cd ..
+ 1484  cd src/
+ 1485  ls
+ 1486  cd ..
+ 1487  ls
+ 1488  cd data/
+ 1489  ls
+ 1490  cd ..
+ 1491  gst-inspect-1.0 --version
+ 1492  gst-launch-1.0 videotestsrc ! autovideosink
+ 1493  gst-launch-1.0 v4l2src device=/dev/video1 ! videoconvert ! autovideosink
+ 1494  ls
+ 1495  gst-launch-1.0 v4l2src device=/dev/video1 ! videoconvert ! autovideosink
+ 1496  ./yolov5_deepsort 
+ 1497  ls
+ 1498  nano test.cpp
+ 1499  g++ test.cpp test.cpp $(pkg-config --cflags --libs gstreamer-1.0)
+ 1500  nano test.cpp 
+ 1501  g++ test.cpp test.cpp $(pkg-config --cflags --libs gstreamer-1.0)
+ 1502  nano test.cpp 
+ 1503  ls
+ 1504  nano test.cpp 
+ 1505  g++ test.cpp test.cpp $(pkg-config --cflags --libs gstreamer-1.0)
+ 1506  g++ test.cpp test $(pkg-config --cflags --libs gstreamer-1.0)
+ 1507  nano test.cpp 
+ 1508  g++ test.cpp -o test $(pkg-config --cflags --libs gstreamer-1.0)
+ 1509  ./test 
+ 1510  nano test.cpp 
+ 1511  gst-launch-1.0 v4l2src device=/dev/video1 ! videoconvert ! autovideosink
+ 1512  ./yolov5_deepsort 
+ 1513  ls
+ 1514  cd new/yolov5_Deepsort_rknn/
+ 1515  ./yolov5_deepsort 
+ 1516  gst-launch-1.0 v4l2src device=/dev/video1 ! videoconvert ! autovideosink
+ 1517  ./yolov5_deepsort 
+ 1518  nano yolov5_deepsort
+ 1519  nano yolov5_deepsort.cpp 
+ 1520  make
+ 1521  nano yolov5_deepsort.cpp 
+ 1522  make
+ 1523  ./yolov5_deepsort 
+ 1524  cd ..
+ 1525  ls
+ 1526  cd rknn-toolkit2/
+ 1527  dmesg 
+ 1528  dmesg |grep NPU
+ 1529  dmesg |grep rga
+ 1530  dmesg |grep mpp
+ 1531  ls
+ 1532  cd rknn-toolkit2/
+ 1533  ls
+ 1534  cd ..
+ 1535  cd rknpu2/examples/rknn_yolov5_demo/
+ 1536  ls
+ 1537  cd model/RK3588/
+ 1538  ls
+ 1539  cd ..
+ 1540  ls
+ 1541  ./rknn_yolov5_demo 
+ 1542  ./rknn_yolov5_demo ./model/RK3588/yolov5s-640-640.rknn 1 640 640
+ 1543  ./rknn_yolov5_demo ./model/RK3588/yolov5s-640-640.rknn /dev/video1 640 640
+ 1544  ./rknn_yolov5_demo ./model/RK3588/yolov5s-640-640.rknn /dev/video1 480 640
+ 1545  ls
+ 1546  cd ..
+ 1547  ls
+ 1548  df -h
+ 1549  ls
+ 1550  cd ..
+ 1551  ls
+ 1552  git clone https://github.com/airockchip/rknn-toolkit2.git
+ 1553  ipaddr
+ 1554  ifaddr
+ 1555  git clone https://github.com/airockchip/rknn-toolkit2.git
+ 1556  mkdir also_new
+ 1557  cd also_new/
+ 1558  git clone https://github.com/airockchip/rknn-toolkit2.git
+ 1559  cd also_new/
+ 1560  git clone https://github.com/airockchip/rknn-toolkit2.git
+ 1561  ifconfig
+ 1562  ip a
+ 1563  sudo systemd-resolve --status
+ 1564  git clone https://github.com/airockchip/rknn-toolkit2.git
+ 1565  sensors
+ 1566  ip a
+ 1567  cd ..
+ 1568  cd new/
+ 1569  ls
+ 1570  ls -la /etc/udev/rules.d/
+ 1571  sudo cp 11-rockchip-multimedia.rules /etc/udev/rules.d/
+ 1572  ls -la /etc/udev/rules.d/
+ 1573  ls
+ 1574  cd also_new/
+ 1575  git clone https://github.com/airockchip/rknn-toolkit2.git
+ 1576  ls
+ 1577  cd rknn-toolkit2/
+ 1578  ls
+ 1579  cd ..
+ 1580  git clone https://github.com/airockchip/rknn_model_zoo.git
+ 1581  ls
+ 1582  cd rknn_model_zoo/
+ 1583  ls
+ 1584  cd examples/yolov8/
+ 1585  ls
+ 1586  source /home/fill/venv00convert/bin/activate
+ 1587  python3 python/yolov8.py --model_path model/yolov8.rknn --target RK3588 --img_show
+ 1588  ls
+ 1589  cd cpp/
+ 1590  ls
+ 1591  make
+ 1592  deactivate
+ 1593  make
+ 1594  cmkae CMakeLists.txt 
+ 1595  cmake CMakeLists.txt 
+ 1596  make
+ 1597  cd ..
+ 1598  ls
+ 1599  ls -l
+ 1600  ls -la
+ 1601  chmod +x ./build-linux.sh 
+ 1602  ./build-linux.sh 
+ 1603  ./build-linux.sh -t rk3588 -a aarch64 -d yolov8 -b Release
+ 1604  cd examples/yolov8/cpp/
+ 1605  ls
+ 1606  make
+ 1607  cd .. 
+ 1608  cd ..
+ 1609  c d..
+ 1610  cd ..
+ 1611  git clone https://github.com/airockchip/rknn_model_zoo.git
+ 1612  cd rknn_model_zoo/
+ 1613  ls
+ 1614  chmod +x build-linux.sh 
+ 1615  ./build-linux.sh -t rk3588 -a aarch64 -d yolov8 -b Release
+ 1616  cd install/rk3588_linux_aarch64/rknn_yolov8_demo/
+ 1617  ls
+ 1618  ./rknn_yolov8_demo 
+ 1619  ./rknn_yolov8_demo ./model/yolov8.rknn ./model/bus.jpg 
+ 1620  ls
+ 1621  ls la
+ 1622  ls -la
+ 1623  ls -la /dev | grep rga
+ 1624  ls
+ 1625  cd projects/
+ 1626  ls
+ 1627  cd yolov5_Deepsort_rknn/
+ 1628  ls
+ 1629  cd build/
+ 1630  ls
+ 1631  ./yolov5_deepsort 
+ 1632  make
+ 1633  ./yolov5_deepsort 
+ 1634  make
+ 1635  ./yolov5_deepsort 
+ 1636  make
+ 1637  ./yolov5_deepsort 
+ 1638  ls
+ 1639  git clone https://github.com/LSH9832/edgeyolo.git
+ 1640  cd edgeyolo/
+ 1641  ls
+ 1642  cd cpp/rknn/
+ 1643  ls
+ 1644  chmod +x setup_rk3588.sh 
+ 1645  ./setup_rk3588.sh 
+ 1646  ls
+ 1647  cd model/
+ 1648  ls
+ 1649  cd ..
+ 1650  sudo apt-get install libyaml-cpp0.3-dev
+ 1651  sudo apt-get install libyaml-cpp-dev
+ 1652  sudo yum install libyaml-devel libyaml yaml-cpp-devel
+ 1653  sudo yumal install libyaml-devel libyaml yaml-cpp-devel
+ 1654  sudo apt-get install libyaml-cpp-dev
+ 1655  apt-get update
+ 1656  sudo apt-get update
+ 1657  ffplay -i /home/fill/projects/ObjectCounter/Tolpa.mp4 
+ 1658  sudo apt-get install guvcview
+ 1659  guvcview 
+ 1660  ffplay /dev/video1
+ 1661  guvcview 
+ 1662  htop
+ 1663  cd ..
+ 1664  ls
+ 1665  cd projects/
+ 1666  ls
+ 1667  cd ..
+ 1668  ls
+ 1669  rm my_video-1.mkv 
+ 1670  rm my_video-2.mkv 
+ 1671  git clone https://github.com/airockchip/rknn-toolkit2.git
+ 1672  ls
+ 1673  cd rknn-toolkit2/
+ 1674  ls
+ 1675  ls -la
+ 1676  cd rknpu2/examples/
+ 1677  ls -la
+ 1678  cd rknn_yolov5_demo/
+ 1679  ls -la
+ 1680  chmod +x ./build-linux.sh 
+ 1681  ./build-linux.sh 
+ 1682  ./build-linux.sh -t rk3588 -a aarch64 -b Release
+ 1683  history |grep export
+ 1684  export GCC_COMPILER=/usr/bin/aarch64-linux-gnu
+ 1685  ./build-linux.sh -t rk3588 -a aarch64 -b Release
+ 1686  cd ..
+ 1687  cd rknn_yolov5_demo/
+ 1688  ./build-linux.sh -t rk3588 -a aarch64 -b Release
+ 1689  ls
+ 1690  cd install/
+ 1691  ls
+ 1692  cd rknn_yolov5_demo_Linux/
+ 1693  ls
+ 1694  ./rknn_yolov5_video_demo 
+ 1695  ./rknn_yolov5_video_demo ./model/RK3588/yolov5s-640-640.rknn 
+ 1696  cp /home/fill/projects/ObjectCounter/Tolpa.mp4 
+ 1697  ffmpeg -i /home/fill/projects/ObjectCounter/Tolpa.mp4 
+ 1698  ./rknn_yolov5_video_demo ./model/RK3588/yolov5s-640-640.rknn /home/fill/projects/ObjectCounter/Tolpa.mp4 264
+ 1699  htop
+ 1700  ls -la
+ 1701  rm out.h264 
+ 1702  cd /home/fill/projects/ObjectCounter/
+ 1703  ls
+ 1704  python CPU.py 
+ 1705  python3 CPU.py 
+ 1706  source ../../venv00convert/bin/activate
+ 1707  python3 CPU.py 
+ 1708  ls
+ 1709  cd ..
+ 1710  deactivate
+ 1711  ls
+ 1712  htop
+ 1713  cp rknn-toolkit2/rknpu2/runtime/Linux/librknn_api/aarch64/librknnrt.so /usr/local/lib/
+ 1714  sudo cp rknn-toolkit2/rknpu2/runtime/Linux/librknn_api/aarch64/librknnrt.so /usr/local/lib/
+ 1715  sudo cp rknn-toolkit2/rknpu2/runtime/Linux/librknn_api/include/rknn_* /usr/local/include
+ 1716  git clone https://github.com/Qengineering/YoloV5-NPU.git
+ 1717  cd YoloV5-NPU/
+ 1718  ls
+ 1719  mkdir build
+ 1720  cd build/
+ 1721  cmake ..
+ 1722  make -j4
+ 1723  ls
+ 1724  cd ..
+ 1725  ls
+ 1726  ./YoloV5_NPU 
+ 1727  nano rk3588/
+ 1728  cd rk3588/
+ 1729  ls
+ 1730  cd ..
+ 1731  ./YoloV5_NPU 
+ 1732  ./YoloV5_NPU  ./busstop.jpg ./rk3588/yolov5n.rknn 
+ 1733  ./YoloV5_NPU  /dev/video1 ./rk3588/yolov5n.rknn 
+ 1734  ./YoloV5_NPU  /home/fill/projects/ObjectCounter/Tolpa.mp4 ./rk3588/yolov5n.rknn 
+ 1735  make -j4
+ 1736  cmake ..
+ 1737  cd build/
+ 1738  cmake ..
+ 1739  make -j4
+ 1740  fill@orangepi5-plus:~/YoloV5-NPU/build$ make -j4
+ 1741  [ 33%] Building CXX object CMakeFiles/YoloV5_NPU.dir/src/main.cpp.o
+ 1742  /home/fill/YoloV5-NPU/src/main.cpp: In function ‘int main(int, char**)’:
+ 1743  /home/fill/YoloV5-NPU/src/main.cpp:110:45: error: cannot bind non-const lvalue reference of type ‘std::vector<int>&’ to an rvalue of type ‘std::vector<int>’
+ 1744  In file included from /home/fill/YoloV5-NPU/src/main.cpp:6:
+ 1745  /home/fill/YoloV5-NPU/include/postprocess.h:38:40: note:   initializing argument 10 of ‘int post_process(int8_t*, int8_t*, int8_t*, int, int, float, float, float, float, std::vector<int>&, std::vector<float>&, detect_result_group_t*)’
+ 1746  make[2]: *** [CMakeFiles/YoloV5_NPU.dir/build.make:76: CMakeFiles/YoloV5_NPU.dir/src/main.cpp.o] Error 1
+ 1747  make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/YoloV5_NPU.dir/all] Error 2
+ 1748  make: *** [Makefile:91: all] Error 2
+ 1749  fill@orangepi5-plus:~/YoloV5-NPU/build$ 
+ 1750  make -j4
+ 1751  cd ..
+ 1752  ls
+ 1753  ./YoloV5_NPU 
+ 1754  ./YoloV5_NPU /home/fill/projects/ObjectCounter/Tolpa.mp4 ./rk3588/yolov5s.rknn 
+ 1755  ./YoloV5_NPU /home/fill/projects/ObjectCounter/Tolpa.mp4 ./rk3588/yolov5n.rknn 
+ 1756  cd build/
+ 1757  make -j4
+ 1758  cd ..
+ 1759  ./YoloV5_NPU /home/fill/projects/ObjectCounter/Tolpa.mp4 ./rk3588/yolov5n.rknn 
+ 1760  cd build/
+ 1761  make -j4
+ 1762  cd ..
+ 1763  ./YoloV5_NPU /home/fill/projects/ObjectCounter/Tolpa.mp4 ./rk3588/yolov5n.rknn 
+ 1764  make -j4
+ 1765  cd build/
+ 1766  make -j4
+ 1767  cd
+ 1768  ls
+ 1769  cd YoloV5-NPU/
+ 1770  cd build/
+ 1771  make -j4
+ 1772  ffplay /dev/video1
+ 1773  cd ..
+ 1774  cd projects/
+ 1775  ls
+ 1776  cd yolov5_Deepsort_rknn/
+ 1777  ls
+ 1778  cd build/
+ 1779  ;s
+ 1780  ls
+ 1781  ./yolov5_deepsort 
+ 1782  ./yolov5_deepsort /dev/video1
+ 1783  ls
+ 1784  cd ..
+ 1785  ;s
+ 1786  ls
+ 1787  cd yolov5/
+ 1788  ls
+ 1789  cd ..
+ 1790  cd edgeyolo/
+ 1791  ls
+ 1792  cd demo/
+ 1793  ls
+ 1794  cd ..
+ 1795  ls
+ 1796  cd edgeyolo/
+ 1797  ls
+ 1798  cd ..
+ 1799  ls
+ 1800  cd ..
+ 1801  ls
+ 1802  history |grep export
+ 1803  history
+ 1804  history |grep /video1
+ 1805  ls
+ 1806  git clone https://github.com/Applied-Deep-Learning-Lab/Yolov5_RK3588
+ 1807  git clone https://github.com/Applied-Deep-Learning-Lab/Yolov5_RK3588.git
+ 1808  ls
+ 1809  git clone https://github.com/Applied-Deep-Learning-Lab/Yolov5_RK3588.git
+ 1810  ls
+ 1811  cd Yolo_
+ 1812  cd Yolov5_RK3588/
+ 1813  ls
+ 1814  pip install -r install/requirements.txt
+ 1815  source /home/fill/venv00convert/bin/activate
+ 1816  pip install -r install/requirements.txt
+ 1817  nano install/requirements.txt 
+ 1818  python main.py 
+ 1819  pip install lap
+ 1820  sudo apt-get update
+ 1821  sudo apt-get install python3-dev
+ 1822  sudo apt-get install liblapack-dev libblas-dev
+ 1823  pip install --force-reinstall lap
+ 1824  pyton
+ 1825  pyton3
+ 1826  python
+ 1827  pip3 install --force-reinstall lap
+ 1828  cd..
+ 1829  exit
+ 1830  pip install --force-reinstall lap
+ 1831  source /home/fill/venv00convert/bin/activate
+ 1832  pip install --force-reinstall lap
+ 1833  deactivate
+ 1834  ls
+ 1835  cd edgeyolo/
+ 1836  la
+ 1837  ls
+ 1838  cd edgeyolo/
+ 1839  ls
+ 1840  cd data/
+ 1841  ls
+ 1842  cd ..
+ 1843  ls
+ 1844  cd models/
+ 1845  ls
+ 1846  cd ..
+ 1847  ls
+ 1848  cd ..
+ 1849  ls
+ 1850  cd projects/
+ 1851  ls
+ 1852  cd yolov5_Deepsort_rknn/
+ 1853  ls
+ 1854  cd build/
+ 1855  ls
+ 1856  ./yolov5_deepsort 
+ 1857  ls
+ 1858  cd ..
+ 1859  cd build/
+ 1860  ./yolov5_deepsort --help
+ 1861  cd ..
+ 1862  ls
+ 1863  cd yolov5/
+ 1864  ls
+ 1865  cd ..
+ 1866  cd deepsort/
+ 1867  ls
+ 1868  cd ..
+ 1869  ls
+ 1870  cd ..
+ 1871  ls
+ 1872  cd YoloV5-NPU/
+ 1873  ls
+ 1874  ./YoloV5_NPU 
+ 1875  history |grep htop
+ 1876  history
+ 1877  ls
+ 1878  cd ..
+ 1879  ls
+ 1880  cd projects/
+ 1881  ls
+ 1882  cd ..
+ 1883  ls
+ 1884  sudo systemctl status mysql
+ 1885  sudo netstat -tuln | grep 3306
+ 1886  sudo ufw status
+ 1887  sudo ufw allow 3306
+ 1888  sudo ss -tuln | grep 3306
+ 1889  nano /etc/mysql/mariadb.conf.d/50-server.cnf 
+ 1890  sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf 
+ 1891  sudo systemctl restart mariadb
+ 1892  cd ..
+ 1893  ls
+ 1894  cd fill/
+ 1895  mkdir back
+ 1896  cd back/
+ 1897  python
+ 1898  python3
+ 1899  python -m venv venv
+ 1900  python3 -m venv venv
+ 1901  ls
+ 1902  source venv/bin/activate
+ 1903  pip install flask
+ 1904  ls
+ 1905  app.py
+ 1906  nano app.py
+ 1907  app.py
+ 1908  python app.py
+ 1909  nano app.py
+ 1910  python app.py
+ 1911  pip install Flask Flask-SQLAlchemy
+ 1912  python app.py
+ 1913  pip install pymysql
+ 1914  python app.py
+ 1915  pip install mysql
+ 1916  sql
+ 1917  mysql
+ 1918  sudo apt install mysql-server
+ 1919  sudo apt install mysqlserver
+ 1920  sudo apt install mysql server
+ 1921  sudo apt install default-mysql-server
+ 1922  sudo systemctl start mysql
+ 1923  sudo mysql_secure_installation
+ 1924  sql
+ 1925  mysql
+ 1926  mysql -u fill -p
+ 1927  mysql -u root -p
+ 1928  python app.py
+ 1929  mysql -u root -p
+ 1930  python app.py
+ 1931  pip install Flask SQLAlchemy pymysql
+ 1932  python app.py
+ 1933  pip install Flask-Cors
+ 1934  python app.py
+ 1935  mysql -u root -p
+ 1936  python app.py
+ 1937  pip install flask-cors
+ 1938  python app.py
+ 1939  cd projects/
+ 1940  ls
+ 1941  cd ..
+ 1942  ls
+ 1943  cd back/
+ 1944  ls
+ 1945  source venv/bin/activate
+ 1946  python app.py 
+ 1947  ls
+ 1948  cd back/
+ 1949  ls
+ 1950  source venv/bin/activate
+ 1951  python app.py 
+ 1952  pip install cv2
+ 1953  pip install opencv-python
+ 1954  python app.py 
+ 1955  pip install opencv-python-headless flask flask-cors
+ 1956  python app.py 
+ 1957  v4l2-ctl --list-devices
+ 1958  python app.py 
+ 1959  nano test.py
+ 1960  python test.py 
+ 1961  nano test.py 
+ 1962  python test.py 
+ 1963  sudo apt-get install libgtk2.0-dev pkg-config
+ 1964  python test.py 
+ 1965  pip show opencv-python
+ 1966  cd venv/lib/python3.11/site-packages/opencv_python
+ 1967  cd venv/lib/python3.11/site-packages/opencv_python.libs/
+ 1968  ls
+ 1969  ls | grep libopencv
+ 1970  cd ..
+ 1971  ls | grep libopencv
+ 1972  ls
+ 1973  cd opencv_python-4.9.0.80.dist-info/
+ 1974  ls
+ 1975  cd ..
+ 1976  cd opencv_python.libs/
+ 1977  ls | grep .so
+ 1978  locate cv2.so
+ 1979  sudo updatedb
+ 1980  locate cv2.so
+ 1981  cd ..
+ 1982  python app.py 
+ 1983  pip install flask-socketio
+ 1984  python app.py 
+ 1985  pip install imutils
+ 1986  python app.py 
+ 1987  [A
+ 1988  python app.py 
+ 1989  python test.py 
+ 1990  ls
+ 1991  python app.py 
+ 1992  python test.py
+ 1993  python app.py 
+ 1994  sensor
+ 1995  sensors
+ 1996  htop
+ 1997  sensors
+ 1998  htop
+ 1999  sensors
+ 2000  htop
+ 2001  sensors
+ 2002  htop
+ 2003  sensors
+ 2004  htop
+ 2005  history 
+ 2006  history > history_2024-06-10.txt

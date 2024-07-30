@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles_show_data.css') }}">
+</head>
+<body>
+    <h1>Show Data</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Time</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entry in data_entries %}
+            <tr>
+                <td>{{ entry.id }}</td>
+                <td>{{ entry.time }}</td>
+                <td>{{ entry.data }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{{ url_for('main_page') }}" class="btn">Back to Main Page</a>
+</body>
+</html>
